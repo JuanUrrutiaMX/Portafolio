@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Datos Guardados</title>
+</head>
+<body>
+    <h1>Datos guardados</h1>
+    <table border="1" cellpadding="5">
+        <thead>
+            <tr>
+                <th>ID</th><th>Nombre</th><th>Correo</th><th>Teléfono</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for d in datos %}
+            <tr>
+                <td>{{ d.id }}</td>
+                <td>{{ d.nombre }}</td>
+                <td>{{ d.correo }}</td>
+                <td>{{ d.telefono }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <br>
+    <a href="/">Volver al formulario</a>
+</body>
+</html>
