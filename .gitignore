@@ -1,19 +1,18 @@
-# Entorno virtual
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment folder
 env/
 venv/
 
-# Archivos temporales de Python
-__pycache__/
-*.py[cod]
-*.pyo
-
-# Archivos de configuración de editores
+# IDEs y editores
 .vscode/
 .idea/
 
-# Archivos del sistema operativo
+# Archivos de sistema
 .DS_Store
-Thumbs.db
 
-# Archivos de logs (opcional)
-*.log
+# Archivos de base de datos local (opcional, si no quieres subir la base SQLite)
+datos.db
